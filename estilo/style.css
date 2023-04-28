@@ -12,14 +12,15 @@ html, body {
     background-color: black;
 }
 
-main {
-    background: url(../imagens/Fundo.png) no-repeat center center;
+body{
+    background: url(../imagens/Fundo.png) no-repeat;
     background-size: cover;
+    width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 section#telefone {
+    position: relative;
     background: url(../imagens/unnamed.png) no-repeat;
     background-size: 680px;
     padding: 60px;
@@ -47,11 +48,12 @@ section#redes-sociais img {
 }
 
 section#redes-sociais {
-    position: relative;
-    top: -70%;
+    position: absolute;
+    top: 20%;
     left: 41%;
     padding: 0%;
     width: 30px;
     height: 30px;
 }
+
 
